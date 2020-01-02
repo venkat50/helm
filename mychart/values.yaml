@@ -4,6 +4,9 @@
 
 replicaCount: 1
 
+Release:
+  name: oc-311-123456
+
 image:
   repository: nginx
   pullPolicy: IfNotPresent
