@@ -4,7 +4,7 @@
 
 replicaCount: 1
 
-Release:
+release:
   name: oc-311-123456
 
 image:
