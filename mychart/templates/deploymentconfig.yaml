@@ -5,6 +5,7 @@ items:
   metadata:
     labels:
       template: deployment-app
+      release: {{ .Release.Name }}
     name: app
   spec:
     replicas: 1
