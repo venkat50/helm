@@ -5,6 +5,7 @@ items:
   metadata:
     labels:
       template: deployment-app
+      release: {{ .Release.Name }}
     name: app
   spec:
     #host: “deployment-app.3.81.146.233.xip.io”
