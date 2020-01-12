@@ -18,7 +18,7 @@ items:
         name: app
       spec:
         containers:
-        - image: openshift/deployment-example: {{ .Values.version }}
+        - image: openshift/deployment-example:{{ .Values.version }}
           name: deployment-app
           ports:
           - containerPort: 8080
