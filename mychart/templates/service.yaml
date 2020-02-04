@@ -16,4 +16,4 @@ items:
       name: app
 kind: List
 metadata:
-#  name: deployment-app
+  name: service-app
