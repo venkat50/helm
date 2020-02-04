@@ -24,4 +24,4 @@ items:
           - containerPort: 8080
 kind: List
 metadata:
-#  name: deployment-app
+  name: deployment-app
